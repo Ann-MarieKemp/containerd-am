@@ -16,13 +16,14 @@ If you are also a new user to containerd, you can first check out the [_Getting 
 ## Setting up your local environment
 
 At a minimum, the dev tools from `script/setup/install-dev-tools` should be installed.
-Run `make install-deps` to install dependencies used for running and developing the CRI plugin.
+Run `make install-deps` and `make install-cri-deps` to install dependencies used for running and developing the CRI plugin.
 Other install scripts under `script/setup` may need to be run depending on your environment and your preference for installing libraries and dependencies.
 The versions used by `containerd/containerd` CI can be found in `script/setup` and referred to if installing manually.
 
 ```
 $ script/setup/install-dev-tools
 $ make install-deps
+$ make install-cri-deps
 ```
 
 ## Code style
